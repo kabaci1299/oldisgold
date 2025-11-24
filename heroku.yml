@@ -3,6 +3,8 @@ build:
     worker: Dockerfile
 run:
   worker: python3 main.py
+  setup:
+  region: asia-southeast1
 
   # for heroku deployment...add this bulidpack.  
 #  https://github.com/heroku/heroku-buildpack-activestorage-preview
